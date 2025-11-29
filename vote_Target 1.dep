@@ -1,0 +1,18 @@
+Dependencies for Project 'vote', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5209CE98)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\i2c.c)(0x68FE3A4C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x5209CD6C)
+I (types.h)(0x68FC59D8)
+I (i2c_defines.h)(0x68FC59D8)
+F (.\i2c_eeprom.c)(0x68FE3A7A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\i2c_eeprom.o --omf_browse .\i2c_eeprom.crf --depend .\i2c_eeprom.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x5209CD6C)
+I (types.h)(0x68FC59D8)
+I (i2c.h)(0x68FC59D8)
+I (delay.h)(0x68B52D88)
+F (.\next_gen_voting.c)(0x68FE3A7A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\next_gen_voting.o --omf_browse .\next_gen_voting.crf --depend .\next_gen_voting.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x5209CD6C)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7DA6C)
+I (lcd.h)(0x68BB14F3)
+I (i2c.h)(0x68FC59D8)
+I (types.h)(0x68FC59D8)
+I (i2c_eeprom.h)(0x68FC59D8)

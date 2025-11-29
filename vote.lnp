@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\i2c.o"
+".\i2c_eeprom.o"
+".\next_gen_voting.o"
+--strict --scatter ".\vote.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\vote.map" -o .\vote.axf
